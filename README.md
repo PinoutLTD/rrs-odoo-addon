@@ -1,0 +1,1 @@
+## Robnomics Report Service addon for Odoo

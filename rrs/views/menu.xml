@@ -1,0 +1,23 @@
+<odoo>
+    <!-- Main Menu -->
+    <menuitem
+        id="root"
+        name="Robonomics Report Service"
+        sequence="10"
+    />
+    <menuitem id="dashboard" name="Dashboard" sequence="10" parent="root" />
+    <menuitem
+        id="menu_rrs_dash_register"
+        name="Registers"
+        action="action_rrs_dash_register"
+        parent="dashboard"
+        sequence="20"
+    />
+    <menuitem
+        id="menu_rrs_dash_register_status"
+        name="Status"
+        action="action_rrs_dash_register_status"
+        parent="dashboard"
+        sequence="30"
+    />
+</odoo>

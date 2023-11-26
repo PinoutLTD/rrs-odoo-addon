@@ -1,0 +1,45 @@
+<odoo>
+    <record id="action_rrs_dash_register" model="ir.actions.act_window">
+        <field name="name">Registers</field>
+        <field name="res_model">rrs.register</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id="rrs_register_tree_view" model="ir.ui.view">
+        <field name="name">Registers</field>
+        <field name="model">rrs.register</field>
+        <field name="arch" type="xml">
+            <tree string="registers">
+                <field name="address"/>
+                <field name="status"/>
+                <field name="started_date"/>
+            </tree>
+        </field>
+    </record>
+    
+    <record id="rrs_register_form_view" model="ir.ui.view">
+        <field name="name">rrs.register.form</field>
+        <field name="model">rrs.register</field>
+        <field name="arch" type="xml">
+            <form string="Register">
+            <sheet>
+                <group>
+                    <group>
+                        <field name="address"/>
+                        <field 
+                            name="status"
+                        />
+                        <field name="started_date"/>
+                    </group>
+                    <group>
+                        <field name="expired_date"/>
+                        <field 
+                            name="pinata_key"
+                        />
+                        <field name="pinata_secret"/>
+                    </group>
+                </group>
+            </sheet>
+            </form>
+    </field>
+    </record>
+</odoo>
