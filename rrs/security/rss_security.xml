@@ -1,0 +1,11 @@
+<odoo>
+    <data noupdate="0">
+        <record id="group_rss_manager" model="res.groups">
+            <field name="name">Robonomics Report Service Manager</field>
+            <field
+                name="users"
+                eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+            />
+        </record>
+    </data>
+</odoo>

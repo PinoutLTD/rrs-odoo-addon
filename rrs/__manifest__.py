@@ -9,8 +9,6 @@
         "views/rrs_register_status.xml",
         "views/rrs_register.xml",
         "views/menu.xml"
-
-
     ],
     "installable": True,
     'license': 'LGPL-3',
