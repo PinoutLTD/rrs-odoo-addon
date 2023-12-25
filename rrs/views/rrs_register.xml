@@ -38,7 +38,7 @@
                         <field name="expired_date"/>
                         <field name="pinata_key"/>
                         <field name="pinata_secret"/>
-                        <field name="controller_address"/>
+                        <field name="owner_address"/>
                     </group>
                 </group>
             </sheet>

@@ -17,8 +17,8 @@ class RRSRegister(models.Model):
     pinata_key = fields.Char(string="Pinata Key")
     pinata_secret = fields.Char(string="Pinata Secret")
     subscription = fields.Boolean()
-    controller_address = fields.Char(
-        string="Controller address",
+    owner_address = fields.Char(
+        string="Owner address",
         required=True,
         default="123"
     )
