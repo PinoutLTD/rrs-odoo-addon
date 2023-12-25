@@ -5,7 +5,7 @@ class RRSRegister(models.Model):
     _name = "rrs.register"
     _description = "Robonomics Report Service Register"
 
-    address = fields.Char(string="Subscription owner address in Robonomics parachain", required=True)
+    address = fields.Char(string="Subscription controller address in Robonomics parachain", required=True)
     customer_email = fields.Char(string="Email")
     status = fields.Many2one(
         comodel_name="rrs.register.status",
