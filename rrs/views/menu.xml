@@ -13,11 +13,4 @@
         parent="dashboard"
         sequence="20"
     />
-    <menuitem
-        id="menu_rrs_dash_register_status"
-        name="Status"
-        action="action_rrs_dash_register_status"
-        parent="dashboard"
-        sequence="30"
-    />
 </odoo>

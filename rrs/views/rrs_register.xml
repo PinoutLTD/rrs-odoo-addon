@@ -10,10 +10,9 @@
         <field name="arch" type="xml">
             <tree string="registers">
                 <field name="address"/>
-                <field name="status"/>
                 <field name="customer_email"/>
-                <field name="subscription"/>
-                <field name="started_date"/>
+                <field name="paid"/>
+                <field name="last_paid"/>
             </tree>
         </field>
     </record>
@@ -28,17 +27,14 @@
                     <group>
                         <field name="address"/>
                         <field name="customer_email"/>
-                        <field 
-                            name="status"
-                        />
-                        <field name="started_date"/>
-                        <field name="subscription"/>
+                        <field name="paid"/>
+                        <field name="last_paid"/>
                     </group>
                     <group>
-                        <field name="expired_date"/>
                         <field name="pinata_key"/>
                         <field name="pinata_secret"/>
-                        <field name="owner_address"/>
+                        <field name="revolut_cid"/>
+                        <field name="revolut_order_id"/>
                     </group>
                 </group>
             </sheet>
