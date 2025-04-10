@@ -6,7 +6,6 @@
     "data": [
         "security/rss_security.xml",
         "security/ir.model.access.csv",
-        "views/rrs_register_status.xml",
         "views/rrs_register.xml",
         "views/menu.xml"
     ],

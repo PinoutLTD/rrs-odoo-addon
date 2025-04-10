@@ -1,5 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_rrs_register_user,access.rrs.register.user,model_rrs_register,base.group_user,1,0,0,0
 access_rrs_register_manager,access.rrs.register.manager,model_rrs_register,group_rss_manager,1,1,1,1
-access_rrs_register_status_user,access.rrs.register.status.user,model_rrs_register_status,base.group_user,1,0,0,0
-access_rrs_register_status_manager,access.rrs.register.status.manager,model_rrs_register_status,group_rss_manager,1,1,1,1
