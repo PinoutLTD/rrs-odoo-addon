@@ -4,6 +4,7 @@ from odoo import fields, models
 class RRSRegister(models.Model):
     _name = "rrs.register"
     _description = "Robonomics Report Service Register"
+    _inherit = ['mail.thread']
 
     address = fields.Char(string="Subscription controller address in Robonomics parachain", required=True)
     customer_email = fields.Char(string="Email")
